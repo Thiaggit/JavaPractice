@@ -1,0 +1,35 @@
+int x = 5;
+
+int y = 10;
+
+int temp;
+
+
+temp = x;
+
+x = y;
+
+y = temp;
+
+
+System.out.println("The value of x="+ x);
+
+System.out.println("The value of y="+ y);
+
+
+//Without using third var
+
+a = a-b;
+
+
+b = a+b;
+
+
+a = b-a;
+
+
+System.out.println("The value of a="+ a);
+
+
+System.out.println("The value of b="+ b);
+
